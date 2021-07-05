@@ -27,7 +27,7 @@ document.getElementById("inputFive").innerHTML = localStorage.getItem("setFive")
 
 insertCurrentDay();
 
-// setting up local storage
+// These functions assign an innerHTML value to the textareas (whos ids are in each function), to allow the display of the data stored in the localstorage. 
 
 function textNine(){
 	localStorage.setItem("setNine", document.getElementById("inputNine").value);
@@ -66,7 +66,7 @@ function textFive(){
 	document.getElementById("inputFive").innerHTML = localStorage.getItem("setFive");
 }
 
-//  allow the border colours of the cards to change depending on the time, grey for the past, red for currrent, green for future.
+// 73-153 allow the border colours of the cards to change depending on the time, grey for the past, red for currrent, green for future.
 // This is done by using the currentHour var, set earlier, and comparing it to the number value (representative of each hour), then changing the colours from there.
 // While this code can be reduced a small amount, by removing the third "if" from each "else if", I decided to not do this.
 
