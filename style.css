@@ -1,0 +1,61 @@
+.col-sm-8 {
+    padding-top: 11px;  
+}
+
+.col-sm-2 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+.card {
+    border: none;
+	background: transparent;
+}
+
+.form-control {
+	border: 1px black solid;
+	background: transparent;
+	border: none;
+	resize: none;
+	color: #000000;
+	border-left: 1px solid black;
+	padding: 10px;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: black;
+}
+
+
+
+.card-body :hover {
+	background-color: blue;
+}
+
